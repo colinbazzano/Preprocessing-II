@@ -2,11 +2,14 @@
 
 //mixin for buttons
 
-.custom-btn(@button-bg, @font-color, @font-size) {
+.custom-btn(@button-bg, @main-bg, @font) {
     background-color: @button-bg;
-    margin: 0 10px 20px;
+    margin: 0;
+    width: 90%;
+    border-radius: 10px;
     cursor: pointer;
     height: 45px;
-    color: @font-color;
-    font-size: @font-size;
+    color: @main-bg;
+    font-size: @font;
+    display: flex;
 }

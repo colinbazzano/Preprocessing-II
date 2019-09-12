@@ -60,10 +60,6 @@
   }
 }// home
 
-.container {
-  padding-bottom: 2%;
-  border-bottom: 2px dashed @navigation-border;
-
   header {
     margin-top: 30px;
     padding-bottom: 20px;
@@ -71,10 +67,15 @@
     justify-content: space-between;
     border-bottom: 2px dashed @navigation-border;
   }//this closes the header
-}//this closes the container
 
 img {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  .custom-btn(@eastern-blue, @main-bg, @font);
 }
