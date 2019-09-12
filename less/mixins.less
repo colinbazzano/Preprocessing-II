@@ -1,1 +1,19 @@
 // Mixins in here
+
+//mixin for buttons
+
+.custom-btn(@button-bg, @main-bg, @font) {
+    background-color: @button-bg;
+    margin: 0;
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    color: @main-bg;
+    font-size: @font;
+    display: flex;
+
+    &:hover {
+        background-color: @shark;
+    }//this closes the hover
+}//this closes the button
